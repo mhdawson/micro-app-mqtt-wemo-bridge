@@ -1,0 +1,42 @@
+{
+  "name": "micro-app-mqtt-wemo-bridge",
+  "version": "0.0.1",
+  "description": "MQTT to tp-link smart device bridge",
+  "main": "index.js",
+  "dependencies": {
+    "micro-app-framework": "^0.1.1",
+    "socket.io": "~2.1.1",
+    "mqtt": "~1.6.3",
+    "wemo-client": "~0.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdawson/micro-app-mqtt-wemo-bridge.git"
+  },
+  "keywords": [
+    "iot",
+    "mqtt",
+    "dashboard",
+    "micro-app",
+    "wemo",
+    "smart switch",
+    "smart dimmer"
+  ],
+  "author": "Michael Dawson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhdawson/micro-app-mqtt-wemo-bridge/issues"
+  },
+  "homepage": "https://github.com/mhdawson/micro-app-mqtt-wemo-bridge#readme",
+  "contributors": [
+    {
+      "name": "Michael Dawson",
+      "email": "mdawson@devrus.com"
+    }
+  ]
+}
